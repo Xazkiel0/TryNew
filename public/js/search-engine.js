@@ -1,6 +1,5 @@
 const searchBtn = document.getElementById('search-btn')
 const search = document.getElementById('search')
-const placeholder = document.getElementById('placeholder')
 const tip = document.getElementById('tip')
 
 searchBtn.addEventListener('click', () => {

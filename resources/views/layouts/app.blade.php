@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" href="{{asset('images/icon.png')}}">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="icon" href="{{asset('images/logo.png')}}">
 <title>AniParadise - Website Informasi Seputar Anime, Game, Technology & Film</title>
 @yield('css')
 </head>
 <body>
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
-        <div class="container"><a class="navbar-brand" href="#">AniParadise</a
-        >  <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean ">
+        <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
     aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
     <div class="animated-icon1"><span></span><span></span><span></span></div>
   </button>
@@ -39,7 +39,7 @@
                     </div>
             </div>
             <div class="col-sm-4">
-                <img class="d-xl-flex align-items-xl-end" src="{{asset('images/logo-layout.png')}}">
+                <img class="d-xl-flex align-items-xl-end" src="{{asset('images/logo-layout.png')}}" >
             </div>
         </div>
     </div>
